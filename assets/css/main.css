@@ -122,12 +122,11 @@ img {vertical-align: middle;}
 
 /* Fading animation */
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+  animation: fadeEffect 1s;
 }
 
-@keyframes fade {
-  from {opacity: .4} 
+@keyframes fadeEffect {
+  from {opacity: 0.4}
   to {opacity: 1}
 }
 
